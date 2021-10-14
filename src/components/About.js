@@ -12,7 +12,6 @@ class About extends Component {
     return (
       <div id='about'>
         <MainCarousel />
-
         <div className="subComponent" id="aboutBody">
           <Container>
             <header className="headerTitle text-center">

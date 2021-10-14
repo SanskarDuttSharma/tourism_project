@@ -1,6 +1,6 @@
 import React from "react";
 import "./lstyle.css";
-import "../Home/home.js";
+import "../../pages/Home";
 
 const Login = (props) => {
   const {
@@ -14,10 +14,9 @@ const Login = (props) => {
     setHasAccount,
     emailError,
     passwordError,
-    handleLogout
   } = props;
 
-  return (
+  return ( ///Front end part of Login page
     <div>
       <div className="image-slide">
         <div

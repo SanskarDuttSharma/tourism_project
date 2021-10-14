@@ -45,7 +45,7 @@ class NavbarMain extends React.Component {
                   <NavLink href="#about">About</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="#packageBody">Places</NavLink>
+                  <NavLink href="#map">Maps</NavLink>
                 </NavItem>
                 <NavItem>
                   <NavLink href="#servicesBody">Service offered</NavLink>
@@ -53,7 +53,7 @@ class NavbarMain extends React.Component {
                 <NavItem>
                   <NavLink href="#contactBody">Feedback</NavLink>
                 </NavItem>
-                <Button color="success">Login</Button>{" "}
+                <Button color="success">Logout</Button>{" "}
               </Nav>
             </Collapse>
           </Container>

@@ -16,7 +16,7 @@ class Contact extends Component {
           </header>
           <section className="svg-group text-center">
             <Row>
-              <Col lg="4" md="4">
+              {/* <Col lg="4" md="4">
                 <div className="svg-card-3">
                   <Phone width="50" height="55" strokeWidth="1" />
                   <p>0912 345 6789</p>
@@ -27,11 +27,11 @@ class Contact extends Component {
                   <MapPin width="55" height="55" strokeWidth="1" />
                   <p>Manila City, Philippines</p>
                 </div>
-              </Col>
+              </Col> */}
               <Col lg="4" md="4">
                 <div className="svg-card-3">
                   <Mail width="55" height="55" strokeWidth="1" />
-                  <p>manilatourism@manila.ph</p>
+                  <p>indiantourism@mgmail.com</p>
                 </div>
               </Col>
             </Row>

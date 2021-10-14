@@ -120,7 +120,7 @@ function Map() {
   };
 
   return (
-    <div className="full-width-height container">
+    <div className="full-width-height container" id="map">
       <h1 className="no-margin center">States and UTs</h1>
       <ReactTooltip>{tooltipContent}</ReactTooltip>
         <ComposableMap
