@@ -92,19 +92,7 @@ function App(props) {
     authListener();
   }, []);
 
-  // useEffect(() => { //hooks used for API fetch
-  //   const url = {apilink}; 
-  //   const fetchData = async () => {  //refersh by itself
-  //     try {
-  //         const response = await fetch(/*URL*/);
-  //         const data = await response.json();
-  //         console.log(data);
-  //     } catch (error) {
-  //         console.log("error", error);
-  //     }
-  // };
-  //   fetchData();
-  // }, []);
+ 
 
 
   return (
